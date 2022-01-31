@@ -69,7 +69,7 @@ async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
     ]]
     await msg.reply_photo(
     photo=random.choice(Config.PHOTO),
-    caption=Text.START_TEXT.format(msg.from_user.mention, Config.DEV_ID),
+    caption=Text.START_TEXT.format(msg.from_user.mention
     reply_markup=Import.Markup(START_BUTTON))
 
 
