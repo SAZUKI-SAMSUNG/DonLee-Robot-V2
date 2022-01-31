@@ -236,9 +236,7 @@ class Text(object):
 
 
 """
-    CREDITS_TEXT = """
-• 𝖣𝖤𝖵 : <a href="t.me/PR0FESS0R_99">𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽</a>
-• 𝖢𝖮 𝖤𝖣𝖨𝖳𝖮𝖱 : <a href="https://github.com/Xrsirx5">𝖷𝗋𝗌𝗂𝗋𝗑5</a>
+
 
 𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽, 𝗁𝗈𝗐 𝗆𝖺𝗇𝗒 𝖼𝗈𝖽𝖾𝗌 𝗁𝖺𝗏𝖾 𝖨 𝗎𝗌𝖾𝖽? 𝖳𝗁𝖾𝗂𝗋 𝗇𝖺𝗆𝖾𝗌 𝖺𝗋𝖾 𝖻𝖾𝗅𝗅𝗈𝗐 [𝖢𝗋𝖾𝖽𝗂𝗍]
 
