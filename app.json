@@ -14,9 +14,9 @@
         "Telegram",
         "Bot"
     ],
-    "website": "https://youtube.com/c/MoTech_YT",
-    "repository": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "success_url": "https://youtube.com/c/MoTech_YT",
+    "website": "https://github.com/SAZUKI-SAMSUNG/DonLee-Robot-V2",
+    "repository": "https://github.com/SAZUKI-SAMSUNG/DonLee-Robot-V2",
+    "success_url": "https://github.com/SAZUKI-SAMSUNG/DonLee-Robot-V2",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",
