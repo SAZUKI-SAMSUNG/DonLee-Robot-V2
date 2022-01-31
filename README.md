@@ -82,12 +82,9 @@ Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a
 ----
 
 <p align="center">
-↪️ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐎 𝐇𝐄𝐑𝐎𝐊𝐔 ↩️
-</p>
+### Deploy to Heroku
+![Deploy](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/DonLee-Robot-V2)
 
-<p align="center">
-<a href="https://youtu.be/NrbMc93aCzA"><img src="https://github.com/PR0FESS0R-99/Buttons/blob/Professor-99/heroku/herokudeploy-01.svg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
-</p>
 
 ----
 
@@ -142,6 +139,3 @@ Click on the Help Button or <a href="https://telegram.dog/Donlee_Robot">/help</a
 * Thanks To [TroJanzHEX](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) Manual Filter
 * Thanks To [EvamariaTG](https://github.com/EvamariaTG/EvaMaria) IMDB Raiting
 * Thanks To [FayasNoushad](https://github.com/FayasNoushad) TelegraPh 
-* ### Deploy to Heroku
-
-![Deploy](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/DonLee-Robot-V2)
