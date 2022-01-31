@@ -21,4 +21,3 @@ class Text(object):
 🗣️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗍𝗁𝗈𝗇3</a>
 📚 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖠𝗌𝗒𝗇𝖼𝗂𝗈 1.13.0</a>
 🗒️ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : <a href="t.me/{}">5.0.0 [𝖡𝖾𝗍𝖺]</a>
-📖 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href="https://t.me/+xZxr5259iURjMmM1">SOURCE</a>
