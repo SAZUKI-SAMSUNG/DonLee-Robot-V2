@@ -239,7 +239,7 @@ class Text(object):
 """
     CREDITS_TEXT = """
 • 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙳𝙾𝙽</a>
-• 𝙵𝚄𝙻𝙻 𝙴𝙳𝙸𝚃𝙴𝚁 : <a href="https://TEAM_KERALA">𝙳𝙾𝙽</a>
+• 𝙵𝚄𝙻𝙻 𝙴𝙳𝙸𝚃𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙳𝙾𝙽</a>
 
 𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴
 
