@@ -71,30 +71,31 @@ async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
     ]]
     await msg.reply_photo(
     photo=random.choice(Config.PHOTO),
+    caption=Text.START_TEXT.format(msg.from_user.mention, Config.DEV_ID),
     reply_markup=Import.Markup(START_BUTTON))
 
 
 @DonLee_Robot_V2.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁", callback_data="autofilter"),
-          Import.Button("𝙼𝙰𝙽𝚄𝙰𝙻 𝙵𝙸𝙻𝚃𝙴𝚁", callback_data="filter"),
-          Import.Button("𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂", callback_data="connection")
+          Import.Button("𝖠𝗎𝗍𝗈𝖥𝗂𝗅𝗍𝖾𝗋", callback_data="autofilter"),
+          Import.Button("𝖬𝖺𝗇𝗎𝖺𝗅𝖥𝗂𝗅𝗍𝖾𝗋", callback_data="filter"),
+          Import.Button("𝖢𝗈𝗇𝗇𝖾𝖼𝗍𝗂𝗈𝗇𝗌", callback_data="connection")
           ],[
-          Import.Button("𝙱𝙰𝙽", callback_data="ban"),
-          Import.Button("𝙼𝚄𝚃𝙴", callback_data="mute"),
-          Import.Button("𝙿𝚄𝚁𝙶𝙴", callback_data="purge")
+          Import.Button("𝖡𝖺𝗇", callback_data="ban"),
+          Import.Button("𝖬𝗎𝗍𝖾", callback_data="mute"),
+          Import.Button("𝖯𝗎𝗋𝗀𝖾", callback_data="purge")
           ],[
-          Import.Button("𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷", callback_data="telegraph"),
-          Import.Button("𝚃𝚃𝚂", callback_data="tts"),
-          Import.Button("𝚂𝚃𝙸𝙲𝙺𝙴𝚁 𝙸𝙳", callback_data="sticker")
+          Import.Button("𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝖯𝗁", callback_data="telegraph"),
+          Import.Button("𝖳𝖳𝖲", callback_data="tts"),
+          Import.Button("𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽", callback_data="sticker")
           ],[
-          Import.Button("𝙲𝙾𝚄𝙽𝚃𝚁𝚈", callback_data="country"),
-          Import.Button("𝙼𝙴𝙼𝙴", callback_data="meme")
+          Import.Button("𝖢𝗈𝗎𝗇𝗍𝗋𝗒", callback_data="country"),
+          Import.Button("𝖬𝖾𝗆𝖾", callback_data="meme")
           ],[
-          Import.Button("𝙲𝙾𝚅𝙸𝙳", callback_data="covid"),
-          Import.Button("𝚁𝙴𝙿𝙾𝚁𝚃", callback_data="report"),
-          Import.Button("𝚆𝙴𝙻𝙲𝙾𝙼𝙴", callback_data="welcome")
+          Import.Button("𝖢𝗈𝗏𝗂𝖽", callback_data="covid"),
+          Import.Button("𝖱𝖾𝗉𝗈𝗋𝗍", callback_data="report"),
+          Import.Button("𝖶𝖾𝗅𝖼𝗈𝗆𝖾", callback_data="welcome")
           ],[
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
           Import.Button("𝖲𝗍𝖺𝗍𝗎𝗌", callback_data="status"),
@@ -114,7 +115,7 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("👨‍💻𝖣𝖾veloper", url='https://t.me/TEAM_KERALA'),
+          Import.Button("👨‍💻𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁", url='https://TEAM_KERALA'),
           Import.Button("𝖲𝗈𝗎𝗋𝖼𝖾📦", callback_data="source")
           ],[
           Import.Button("⚠️𝖧𝖾𝗅𝗉", callback_data="help"),
@@ -133,8 +134,8 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
-        button = [[
-          ]]                     
+        button = [[     
+        ]]
         await bot.send_photo(
             chat_id=msg.chat.id,
             photo=random.choice(Config.PHOTO),
@@ -147,7 +148,7 @@ async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.private & filters.command("report"))
 async def admin(bot, msg):
     button = [[  
-       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/TEAM_KERALA")
+       Import.Button("𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾➡️", url="t.me/PR0FESS0R_99")
        ]]
     await msg.reply_text(
         text="𝖢𝗈𝗇𝗍𝖾𝖼𝗍 𝖡𝗎𝗍𝗍𝗈𝗇 𝖡𝖾𝗅𝗅𝗈𝗐",
