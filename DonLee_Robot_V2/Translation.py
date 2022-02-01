@@ -25,13 +25,13 @@ class Text(object):
 - 𝖠𝗇𝖽 𝗍𝗁𝖾 𝖿𝗈𝗅𝗅𝗈𝗐𝗂𝗇𝗀
 """
     ABOUT_TEXT = """
-╔📃 𝖡𝗈𝗍 : <a href="t.me/{}">𝙱𝙾𝚂𝚂</a>
-🧒 𝖣𝖾𝗏 : <a href="t.me/Mrk_yt">𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽</a>
-🧒 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href="tg://user?id={}">{}</a>
-🗣️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗍𝗁𝗈𝗇3</a>
-📚 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖠𝗌𝗒𝗇𝖼𝗂𝗈 1.13.0</a>
-🗒️ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : <a href="t.me/{}">5.0.0 [𝖡𝖾𝗍𝖺]</a>
-📖 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 : <a href="https://youtu.be/NrbMc93aCzA">𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾</a>
+𝙸
+║┣⪼ 𝙸𝙰𝙼 : <a href="t.me/{}">𝙱𝙾𝚂𝚂</a>
+║┣⪼ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁  : <a href="t.me/TEAM_KERALA">𝚃𝚐 𝙵𝙻𝚄𝙵𝙵𝚈</a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙵𝙻𝚄𝙵𝙵𝚈 𝚂𝙴𝚁</a>
+║┣⪼ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴  : <a href="https://docs.pyrogram.org">𝖯𝗒𝗍𝗁𝗈𝗇3</a>
+║┣⪼ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href="https://docs.pyrogram.org">𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖠𝗌𝗒𝗇𝖼𝗂𝗈 1.13.0</a>║┣⪼  : <a href="t.me/{}">5.0.0 [𝖡𝖾𝗍𝖺]</a>
+║┣⪼ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : <a href="https://t.me/+xZxr5259iURjMmM1">𝚆𝙰𝙽𝚃𝙴𝙳 𝚂𝙾𝚄𝚁𝙲𝙴</a>
 """
     SUB_TEXT = """
 𝖧𝖾𝗅𝗅𝗈 𝖿𝗋𝗂𝖾𝗇𝖽𝗌,
