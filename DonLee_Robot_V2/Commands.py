@@ -16,8 +16,7 @@ async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
     START_BUTTON = [[  
           Import.Button("➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖢𝗁𝖺𝗍𝗌 ➕", url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=true")
           ],[
-          Import.Button("⚠️ 𝖧𝖾𝗅𝗉", callback_data="help"),
-          Import.Button("𝖠𝖻𝗈𝗎𝗍 🤠", callback_data="about")
+          Import.Button("🔎SEARCH", url="switch_inline_query_current_chat=''),
           ]]
     if not await db.is_user_exist(msg.from_user.id):
         await db.add_user(msg.from_user.id)
@@ -99,7 +98,6 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
           ],[
           Import.Button("🏠𝖧𝗈𝗆𝖾", callback_data="home"),
           Import.Button("𝖲𝗍𝖺𝗍𝗎𝗌", callback_data="status"),
-          Import.Button("𝖠𝖻𝗈𝗎𝗍🤠", callback_data="about")
           ]]
         await bot.send_photo(
             chat_id=msg.chat.id,
@@ -135,17 +133,7 @@ async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["sub", "subscribe"]) & filters.private, group=1)
 async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[     
-          Import.Button("🖥️𝖵𝗂𝖽𝖾𝗈", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍🤝", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
-          ],[
-          Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://www.youtube.com/watch?v=NrbMc93aCzA"),
-          Import.Button("𝖸𝗈𝗎𝖳𝗎𝖻𝖾💞", url="https://www.youtube.com/watch?v=NrbMc93aCzA")
-          ],[
-          Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="http://github.com/PR0FESS0R_99"),
-          Import.Button("𝖨𝗇𝗌𝗍𝖺😁", url="https://www.instagram.com/mrk_yt_")
-          ],[
-          Import.Button("𝖢𝗅𝗈𝗌𝖾🗑️", callback_data="close")
-          ]]                     
+          ]]                    
         await bot.send_photo(
             chat_id=msg.chat.id,
             photo=random.choice(Config.PHOTO),
