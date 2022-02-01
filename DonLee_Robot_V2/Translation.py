@@ -58,7 +58,7 @@ class Text(object):
     SPELLING_TEXT = """
 𝖧𝖾𝗅𝗅𝗈 {},
 
-       InlineKeyboardButton("𝚂𝙴𝙰𝚁𝙲𝙷 𝙾𝙽 𝙶𝙾𝙾𝙶𝙻𝙴", url=f"https://google.com/search?q={search}"),
+       InlineKeyboardButton("🕵‍♂️SEARCH ON GOOGLE🕵‍♂️", url=f"https://google.com/search?q={search}"),
 
 """
     AUTO_FILTER_1_TEXH = """
