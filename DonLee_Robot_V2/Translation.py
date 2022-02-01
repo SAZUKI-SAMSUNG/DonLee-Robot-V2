@@ -236,18 +236,14 @@ class Text(object):
 𝖳𝗁𝖾 𝗋𝖾𝗉𝗈 𝗏𝗂𝖽𝖾𝗈 𝗁𝖺𝗌 𝖻𝖾𝖾𝗇 𝖺𝖽𝖽𝖾𝖽 𝗍𝗈 𝗍𝗁𝖾 𝖽𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇 𝖻𝗈𝗑
 𝖦𝗈 𝗊𝗎𝗂𝖼𝗄𝗅𝗒 𝖺𝗇𝖽 𝗉𝗂𝖼𝗄 𝗂𝗍 𝗎𝗉
 
-📢 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href="t.me/Mo_Tech_Group">𝖬𝗈 𝖳𝖾𝖼𝗁 𝖦𝗋𝗈𝗎𝗉</a>
-🎗️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href="t.me/Mo_Tech_YT">𝖬𝗈𝖳𝖾𝖼𝗁 𝖢𝗁𝖺𝗇𝗇𝖾𝗅</a>
-➡️ 𝖵𝗂𝖽𝖾𝗈 𝖫𝗂𝗇𝗄 : <a href="https://youtu.be/NrbMc93aCzA">𝖶𝖺𝗍𝖼𝗁 𝖵𝗂𝖽𝖾𝗈</a>
 """
     CREDITS_TEXT = """
-• 𝖣𝖤𝖵 : <a href="t.me/PR0FESS0R_99">𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽</a>
-• 𝖢𝖮 𝖤𝖣𝖨𝖳𝖮𝖱 : <a href="https://github.com/Xrsirx5">𝖷𝗋𝗌𝗂𝗋𝗑5</a>
+• 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙳𝙾𝙽</a>
+• 𝙵𝚄𝙻𝙻 𝙴𝙳𝙸𝚃𝙴𝚁 : <a href="https://TEAM_KERALA">𝙳𝙾𝙽</a>
 
-𝖬𝗎𝗁𝖺𝗆𝗆𝖾𝖽, 𝗁𝗈𝗐 𝗆𝖺𝗇𝗒 𝖼𝗈𝖽𝖾𝗌 𝗁𝖺𝗏𝖾 𝖨 𝗎𝗌𝖾𝖽? 𝖳𝗁𝖾𝗂𝗋 𝗇𝖺𝗆𝖾𝗌 𝖺𝗋𝖾 𝖻𝖾𝗅𝗅𝗈𝗐 [𝖢𝗋𝖾𝖽𝗂𝗍]
+𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴
 
-<a href="https://github.com/TroJanzHEX">𝖳𝗋𝗈𝖩𝖺𝗇𝗓𝖧𝖤𝖷</a> || <a href="https://github.com/CrazyBotsz">𝖢𝗋𝖺𝗓𝗒𝖡𝗈𝗍𝗌𝗓</a> || <a href="https://github.com/Bughunter">𝖡𝗎𝗀𝗁𝗎𝗇𝗍𝖾𝗋</a> || <a href="https://github.com/PR0FESS0R-99">𝖯𝗋𝗈𝖿𝖾𝗌𝗌𝗈𝗋-99</a> || <a href="https://github.com/EvamariaTG">𝖤𝗏𝖺𝗆𝖺𝗋𝗂𝖺𝖳𝖦</a> || <a href="https://github.com/SpEcHiDe">𝖲𝗉𝖤𝖼𝖧𝗂𝖣𝖾</a> || <a href="https://github.com/FayasNoushad">𝖥𝖺𝗒𝖺𝗌𝖭𝗈𝗎𝗌𝗁𝖺𝖽</a>
-"""
+<a href="https://t.me/+xZxr5259iURjMmM1">𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴</a>"""
     REPORT_TEXT = """
 𝖧𝖾𝗅𝗉: <b><u>𝖱𝖾𝗉𝗈𝗋𝗍</u></b>
 
