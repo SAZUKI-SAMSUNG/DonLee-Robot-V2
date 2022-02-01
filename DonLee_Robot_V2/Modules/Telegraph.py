@@ -44,7 +44,7 @@ async def telegraph(client, message: Import.Msg):
     else:
         await message.reply_photo(
             photo=f"https://telegra.ph{response[0]}",
-            caption=f"<b>𝗅𝗂𝗇𝗄:-</b> <code>https://telegra.ph{response[0]}</code>\n\n𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Mo_Tech_YT",
+            caption=f"<b>𝗅𝗂𝗇𝗄:-</b> <code>https://telegra.ph{response[0]}</code>\n\n𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @TEAM_KERALA",
             quote=True,
             reply_markup=Import.Markup([[
                Import.Button(text="𝗈𝗉𝖾𝗇 𝗅𝗂𝗇𝗄", url=f"https://telegra.ph{response[0]}"),
