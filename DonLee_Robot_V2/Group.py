@@ -456,9 +456,8 @@ async def auto_filter(bot, update):
             chat_id = update.chat.id,
             text=Text.SPELLING_TEXT.format(update.from_user.mention, the_query, the_query),
             parse_mode="html",
-                   reply_markup=InlineKeyboardMarkup(InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}"),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔍 Search Google 🔎", url="https://google.com/")]]),
             reply_to_message_id=update.message_id
- reply_to_message_id=update.message_id
         )
         await asyncio.sleep(60) # in seconds
         await Auto_Delete.delete()
@@ -482,8 +481,8 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("𝙽𝙴𝚇𝚃»»", callback_data=f"navigate(0|next|{query})"),
-                    InlineKeyboardButton(f"🌹1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore"),
+                    InlineKeyboardButton("𝖭𝖾𝗑𝗍 »»", callback_data=f"navigate(0|next|{query})"),
+                    InlineKeyboardButton(f"🧾 1/{len_result if len_result < max_pages else max_pages}", callback_data="ignore"),
                 ]
             )
 
