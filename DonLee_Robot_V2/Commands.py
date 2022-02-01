@@ -15,8 +15,6 @@ db = Database()
 async def start(bot: DonLee_Robot_V2, msg: Import.Msg):
     START_BUTTON = [[  
           Import.Button("➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖢𝗁𝖺𝗍𝗌 ➕", url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=true")
-          ],[
-          Import.Button("🔎SEARCH", url="switch_inline_query_current_chat=''),
           ]]
     if not await db.is_user_exist(msg.from_user.id):
         await db.add_user(msg.from_user.id)
