@@ -241,7 +241,7 @@ class Text(object):
 • 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙳𝙾𝙽</a>
 • 𝙵𝚄𝙻𝙻 𝙴𝙳𝙸𝚃𝙴𝚁 : <a href="t.me/TEAM_KERALA">𝙳𝙾𝙽</a>
 
-𝙽𝙾𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴
+𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙸𝚂 𝙿𝙰𝙸𝙳 𝚁𝚂:500 𝙿𝙰𝚈𝙼𝙴𝙽𝚃 𝙼𝙴𝚃𝙷𝙾𝙳 𝙿𝙰𝚈𝙿𝙰𝙻 𝙾𝚁 𝙿𝙰𝚈𝚃𝙼
 
 <a href="https://t.me/+xZxr5259iURjMmM1">𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴</a>"""
     REPORT_TEXT = """
