@@ -456,7 +456,7 @@ async def auto_filter(bot, update):
             chat_id = update.chat.id,
             text=Text.SPELLING_TEXT.format(update.from_user.mention, the_query, the_query),
             parse_mode="html",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}")")]]),
+                   reply_markup=InlineKeyboardMarkup(InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}"),
             reply_to_message_id=update.message_id
  reply_to_message_id=update.message_id
         )
